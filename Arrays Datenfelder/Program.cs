@@ -7,7 +7,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-                int n = 5;
+                int n = 20;
                 int[] noten = new int[n];
             int summe = 0;
             for (int index = 0; index < n; index++)
