@@ -1,7 +1,48 @@
-﻿class Program
+﻿using System;
+
+namespace ConsoleApp1
 {
-    static void Main(string[] args)
+    class Program
     {
-      
+        static void Main(string[] args)
+        {
+
+                int n = 5;
+                int[] noten = new int[n];
+            int summe = 0;
+            for (int index = 0; index < n; index++)
+            {
+                Console.WriteLine("Geben sie die {0} noten ein",index+1);
+
+                noten[index] = Convert.ToInt32(Console.ReadLine());
+
+
+                Console.WriteLine("--------------------------------------");
+
+                summe = summe+noten[index];
+
+                        
+            }
+
+            Console.WriteLine( summe / n);
+            Console.ReadLine();
+
+
+
+
+
+
+        }
+
+            
+
+
+        }
     }
-}
+
+
+
+
+
+
+
